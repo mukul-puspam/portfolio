@@ -1,0 +1,61 @@
+{
+    "personaldetail": {
+        "firstname": "mukul",
+        "lastname": "string",
+        "address": "string",
+        "languagesKnown": "string",
+        "dob": "2019-09-30T10:05:38.525Z"
+    },
+    "profile": [{
+        "value": "profile__"
+    }],
+    "technicalSkill": {
+        "frontend": "frontend___",
+        "backend": "string",
+        "database": "string",
+        "developmentTools": "string",
+        "devOps": "string"
+    },
+    "personalQualities": [{
+        "value": "personalQualityyyyy"
+    }],
+    "keyResponsibilityHandled": [{
+        "value": "keyResponsibilityHandleddddddd"
+    }],
+    "keyProjectsTaken": {
+        "project": [{
+            "description": "provides unique identification to citizen of a country",
+            "technology": [{
+                "name": "backend",
+                "value": "java, springboot, vert.x"
+            },{
+                "name": "frontend",
+                "value": "angular 7, flexbox"
+            },{
+                "name": "database",
+                "value": "postgres, deployd"
+            }
+        ],
+            "title": "MOSIP"
+        },{
+            "description": "insurance based cpmoany. wokred on backend as well as frontend",
+            "technology": [{
+                "name": "backend",
+                "value": "java, springboot"
+            },{
+                "name": "frontend",
+                "value": "ionic 3"
+            }
+            ],
+            "title": "MEDPRO"
+        }
+    
+    ]
+    },
+    "achievements": [{
+        "value": "achievementsddd"
+    }],
+    "academicsAndQualifications": [{
+        "value": "academicsAndQualificationsddd"
+    }]
+}

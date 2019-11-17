@@ -1,0 +1,21 @@
+.header {
+  font-size: calc(10px + 2vw);
+}
+.title {
+  height: 20%;
+  max-height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  padding-top: 10%;
+  width: 25%;
+  max-width: 200px;
+  height: auto;
+}
+.buttons a{
+  margin: 3%;
+  font-size: calc(4px + 1vw);
+}

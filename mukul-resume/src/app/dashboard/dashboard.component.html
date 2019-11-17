@@ -1,0 +1,44 @@
+<!-- <p>dashboard works!</p>
+<mat-tab-group>
+    <mat-tab>
+        <ng-template mat-tab-label>
+            <mat-icon class="example-tab-icon">thumb_up</mat-icon>
+                About me
+        </ng-template>
+        <p>content</p>
+    </mat-tab>
+
+    <mat-tab label="Projects"> 
+        <mat-tab-group>
+            <mat-tab label="MOSIP">Mosip project</mat-tab>
+            <mat-tab label="AIG">AIG project</mat-tab>
+            <mat-tab label="Medpro">Medpro project</mat-tab>
+        </mat-tab-group>     
+        
+    </mat-tab>
+
+    <mat-tab label="Academics"> Content 3 </mat-tab>
+    <mat-tab label="Expectations"> Content 3 </mat-tab>
+  </mat-tab-group>
+  {{resume?.personaldetail.firstname}} -->
+  <div class = "container">
+        <mat-card class="sideNav">
+            <button mat-raised-button color="basic" (click) = "navigate('academics')">Academics and Qualification</button>
+            <button mat-raised-button color="basic" (click) = "navigate('achievements')">Achievements</button>
+            <button mat-raised-button color="basic" (click) = "navigate('projects')">Key Projects Taken</button>
+            <button mat-raised-button color="basic" (click) = "navigate('responsibility')">Key Responsibily Handled</button>
+            <button mat-raised-button color="basic" (click) = "navigate('qualities')">Personal Qualities</button>
+            <button mat-raised-button color="basic" (click) = "navigate('personaldetails')">Personal Details</button>
+            <button mat-raised-button color="basic" (click) = "navigate('profile')">Profile</button>
+            <button mat-raised-button color="basic" (click) = "navigate('technical')">Technical Skills</button>
+        </mat-card>
+        
+        <app-generic-details *ngIf="academics" [value] =resume?.academicsAndQualifications></app-generic-details>
+        <app-generic-details *ngIf="achievements" [value] =resume?.achievements></app-generic-details>
+        <app-generic-details *ngIf="responsibility" [value] =resume?.keyResponsibilityHandled></app-generic-details>
+        <app-generic-details *ngIf="qualities" [value] =resume?.personalQualities></app-generic-details>
+        <app-technical-skills *ngIf="personaldetails" [value] =resume?.personaldetail></app-technical-skills>
+        <app-generic-details *ngIf="profile" [value] =resume?.profile></app-generic-details>
+        <app-projects *ngIf="projects" [value] =resume?.keyProjectsTaken></app-projects>
+        <app-technical-skills *ngIf="technical" [value] =resume?.technicalSkill></app-technical-skills>
+  </div>

@@ -1,0 +1,12 @@
+.container {
+    margin-top: 10%;
+    min-width: 60%;
+    width: fit-content;
+    float: right;
+    align-self: center;
+    margin: 5%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+}

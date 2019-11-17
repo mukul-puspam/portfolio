@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-flow: wrap;
+    /* justify-content: space-around; */
+}
+.sideNav {
+    display: flex;
+    flex-direction: column;
+}
+.sideNav button {
+    margin: 1%;
+}
