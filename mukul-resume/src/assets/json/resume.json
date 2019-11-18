@@ -1,61 +1,245 @@
 {
     "personaldetail": {
-        "firstname": "mukul",
-        "lastname": "string",
-        "address": "string",
-        "languagesKnown": "string",
-        "dob": "2019-09-30T10:05:38.525Z"
+      "firstname": "mukul",
+      "lastname": "puspam",
+      "address": "418, phase 1, vaastu lavender appartment, RR nagar, Banglore",
+      "languagesKnown": "English, Hindi",
+      "dob": "28th-jan-1995"
     },
-    "profile": [{
-        "value": "profile__"
-    }],
+    "profile": [
+      {
+        "value": "2 year 10 months of experience including Software development, product development Client/Server and Windows application."
+      },
+      {
+        "value": "Involved in Software Development and Documentation, Analysis of the Business Requirements and the Software Requirements Specifications. "
+      },
+      {
+        "value": "Actively participated in all the stages of SDLC."
+      },
+      {
+        "value": "Experience in developing Web-App on JS frameworks and API creation in JS framework and in JAVA. "
+      },
+      {
+        "value": "Experience in using Fiddler and SourceTree tool. "
+      },
+      {
+        "value": "Experience in developing database applications of RDBMS in MySQL Server, postgres and NOSQL in MongoDB. "
+      },
+      {
+        "value": "Ability to interact with developers, product analysts and QA team regarding daily status."
+      },
+      {
+        "value": "Experience in developing in Agile methodology. "
+      },
+      {
+        "value": "Involved in review meetings with Project Managers, Developers and Business Associates for Project Planning, Coordination and implementing various development methodologies.  "
+      },
+      {
+        "value": "Excellent communication skills have always been an asset in completing business venture and projects with success. "
+      },
+      {
+        "value": "Quick Learner with the ability to rapidly achieve organizational integration, assimilate job requirements and employ new methodologies. Energetic and self motivated team player/builder.   "
+      }
+    ],
     "technicalSkill": {
-        "frontend": "frontend___",
-        "backend": "string",
-        "database": "string",
-        "developmentTools": "string",
-        "devOps": "string"
+      "frontend": "Html5, Angular JS, Angular 4, Ionic 3, python Flask ",
+      "backend": "Spring MVC, SpringBoot, Node JS, Vert.x ",
+      "database": "SQL, Mongo DB, Postgres",
+      "developmentTools": "Visual Studio Code, Eclipse, IntelliJ IDEA ",
+      "devOps": "docker, kubernates"
     },
-    "personalQualities": [{
-        "value": "personalQualityyyyy"
-    }],
-    "keyResponsibilityHandled": [{
-        "value": "keyResponsibilityHandleddddddd"
-    }],
+    "personalQualities": [
+      {
+        "value": "Strong visualization, problem solving and analytical skills"
+      },
+      {
+        "value": "Good communication skills "
+      }
+    ],
+    "keyResponsibilityHandled": [
+      {
+        "value": "Created REST API in springboot by consuming SOUP envelope. "
+      },
+      {
+        "value": "Involved in development in UI screens in Ionic 3 framework.   "
+      },
+      {
+        "value": "Styling components using Flexbox.   "
+      },
+      {
+        "value": "Created services in Angular JS to consume json from PEGA service SINGLE- HANDEDLY.   "
+      },
+      {
+        "value": "Fixed bugs in UI screen in Angular JS.   "
+      },
+      {
+        "value": "Created Topic Model to be used in Sementic search using Machine Learning in Python.   "
+      },
+      {
+        "value": "Created services in Springboot to consume topic model.   "
+      },
+      {
+        "value": "Created Screens in Python Flask.   "
+      },
+      {
+        "value": "Interacted with the QA managers for the regular update of the project.   "
+      },
+      {
+        "value": "Single handily completed many POCs for many frameworks like apache camel, vertx, chime, clamav etc.  "
+      },
+      {
+        "value": "Handled a team of 5 for development of a product and provide assistance to a team of 15 on technical grounds and business grounds"
+      }
+    ],
     "keyProjectsTaken": {
-        "project": [{
-            "description": "provides unique identification to citizen of a country",
-            "technology": [{
-                "name": "backend",
-                "value": "java, springboot, vert.x"
-            },{
-                "name": "frontend",
-                "value": "angular 7, flexbox"
-            },{
-                "name": "database",
-                "value": "postgres, deployd"
-            }
-        ],
-            "title": "MOSIP"
-        },{
-            "description": "insurance based cpmoany. wokred on backend as well as frontend",
-            "technology": [{
-                "name": "backend",
-                "value": "java, springboot"
-            },{
-                "name": "frontend",
-                "value": "ionic 3"
-            }
+        "project": [
+          {
+            "description": "The project was about creating a web portal for cafeteria management where the target user may view the menu, add menu and book meals. My role in the project was to build the whole frontend part from scratch.  ",
+            "technology": [
+              {
+                "name": "Framework used ",
+                "value": "Angular 1.6   "
+              },
+              {
+                "name": "Cloud Database ",
+                "value": "Deployd"
+              },
+              {
+                "name": "Others",
+                "value": "Bootstrap 3, Material Design"
+              }
             ],
-            "title": "MEDPRO"
-        }
-    
+            "title": "CAFETERIA MANAGEMENT SYSTEM | MINDTREE (KALINGA) | FEB 2017-APRIL 2017 ",
+            "link": "https://glc-devtest-cms.azurewebsites.net/temp/CMS_UI_New/Com/Mindtree/Kalinga/CMS.UI/#/CMS_View",
+            "imageSrc": "../../assets/images/app-icon.png"
+          },
+          {
+            "description": "The project was a MEAN Stack application which was developed for the library in Mindtree Kalinga so that the online management could be done easily. My role in the project was to create the frontend part in Angular 1.6.   ",
+            "technology": [
+              {
+                "name": "backend",
+                "value": "Node JS    "
+              },
+              {
+                "name": "frontend",
+                "value": "Angular 1.6     "
+              },
+              {
+                "name": "database",
+                "value": "MongoDB     "
+              }
+            ],
+            "title": "LIBRARY MANAGEMENT SYSTEM | MINDTREE (KALINGA) | FEB 2017-APRIL 2017 ",
+            "link": "/",
+            "imageSrc": "../../assets/images/app-icon.png"
+          },
+          {
+            "description": "The project was built on ionic 3 in frontend and springboot in backend. I was working as a full stack on this project. Medpro is a insurance-based company. I was working for around 6 months for this project. My role was to handle changes in UI and as well as backend. ",
+            "technology": [
+              {
+                "name": "backend",
+                "value": "Springboot    "
+              },
+              {
+                "name": "frontend",
+                "value": "Ionic 3   "
+              }
+            ],
+            "title": "MEDPRO | MINDTREE (BANGLORE) | APRIL 2017-SEPTEMBER 2017 ",
+            "link": "https://www.medpro.com/",
+            "imageSrc": "../../assets/images/medpro-logo.png"
+          },
+          {
+            "description": "The project was built on Angular js  in frontend. I was the only working as a front end developer. AIG is a insurance-based company. I was working for around 4 months for this project.",
+            "technology": [
+              {
+                "name": "frontend",
+                "value": "Angular js "
+              }
+            ],
+            "title": "AIG | MINDTREE (BANGLORE) | SEPTEMBER 2017 – DECEMBER 2017   ",
+            "link": "https://www.aig.com/",
+            "imageSrc": "../../assets/images/aig-logo.png"
+          },
+          {
+            "description": "Since I was a part of CTO function I got tagged to COE group i.e. Center of Excellence group of CTO function so there I was working for the project “Symentic search”. It was a mindtree internal project. I was working in machine learning in python and java as well.   ",
+            "technology": [
+              {
+                "name": "backend",
+                "value": "Java, Springboot"
+              },
+              {
+                "name": "frontend",
+                "value": "Python Flask, Angular 6   "
+              }
+            ],
+            "title": "SEMANTIC-SEARCH | MINDTREE (BANGLORE) | DECEMBER 2017 – JUNE 2018 ",
+            "link": "/",
+            "imageSrc": "../../assets/images/app-icon.png"
+          },
+          {
+            "description": "MOSIP is Modular Open Source Identification Platform. It is an open source framework to be built on springboot microservices on top of which any country can implement their UI to create unique identification for their citizen. The first Country to use this product was Philippines. I visited Manila as well for setting up this project to enroll people for this platform.  ",
+            "technology": [
+              {
+                "name": "backend",
+                "value": "Vert.x , Springboot, SpringBatch "
+              },
+              {
+                "name": "database",
+                "value": "PostgreSQL "
+              },
+              {
+                "name": "frontend",
+                "value": "Angular 7"
+              }
+            ],
+            "title": "MOSIP | MINDTREE (BANGLORE) | JULY 2017 - ONGOING  ",
+            "link": "/",
+            "imageSrc": "../../assets/images/mosip-logo.png"
+          }
+        ]
+      },
+    "achievements": [
+      {
+        "value": "Got an opportunity to setup our open source project for Unique Identitification System for the country Philippines. "
+      },
+      {
+        "value": "Got Clients appreciations for some technical challenges faced at different stages of the project.  "
+      },
+      {
+        "value": "Got Hats-off certification 3 times for unique contribution for the project.   "
+      },
+      {
+        "value": "Got Strategic-Thinking 7 certification for presenting the most optimal solution.   "
+      },
+      {
+        "value": "Got A-team certification 4 for effort contributed by my whole team.   "
+      },
+      {
+        "value": "Got selected in HHI for national level.   "
+      },
+      {
+        "value": "Active member of Fundo club.   "
+      },
+      {
+        "value": "Group head of Zero Gravity.   "
+      }
+    ],
+    "academicsAndQualifications": [
+      {
+        "value": "Btech (CSE) from Trident Academy of Technology in 2016 with CGPA 7.8. "
+      },
+      {
+        "value": "12th from Ishan International Public School in 2012 with 80.6%.   "
+      },
+      {
+        "value": "10th from D.A.V Public School in 20120 with CGPA 8.8.   "
+      },
+      {
+        "value": "Successfully completed Deep-dive Python certification course in 2017 from SpringPeople.   "
+      },
+      {
+        "value": "Successfully completed Apache Cassandra certification course in 2018 from SpringPeople.   "
+      }
     ]
-    },
-    "achievements": [{
-        "value": "achievementsddd"
-    }],
-    "academicsAndQualifications": [{
-        "value": "academicsAndQualificationsddd"
-    }]
-}
+  }

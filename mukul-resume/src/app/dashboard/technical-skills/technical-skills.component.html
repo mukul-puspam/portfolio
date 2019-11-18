@@ -1,11 +1,8 @@
-<p>technical-skills works!</p>
-<!-- <ul>
-    <li *ngFor="let item of value; let i = index">
-        <mat-card>{{item}}</mat-card>
-    </li>
-</ul> -->
-<div *ngFor="let item of value | keyvalue">
+<ul *ngFor="let item of value | keyvalue">
+  <li>
     <mat-card>
-        {{item.key}} : {{item.value}}
+      <span class="key"> {{item.key}} : </span>
+      <span class="value">{{item.value}} </span>
     </mat-card>
-</div>
+  </li>
+</ul>

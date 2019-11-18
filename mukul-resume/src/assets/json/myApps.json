@@ -1,0 +1,52 @@
+{
+    "myapps": [
+      {
+        "description": "This app provides Digital portfolio of any applicant. Most of the features are configurable in the application. ",
+        "technology": [
+          {
+            "name": "frontend",
+            "value": "angular 7, flexbox, material design"
+          },
+          {
+            "name": "database",
+            "value": "deployd"
+          }
+        ],
+        "title": "PORTFOLIO",
+        "link": "https://github.com/mukul-puspam/portfolio",
+        "imageSrc": "../../assets/images/app-icon.png"
+      },
+      {
+        "description": "This application translates multiple languages. All you have to do is choose a language and speak. The app will translate and spean back and write as well.",
+        "technology": [
+          {
+            "name": "backend",
+            "value": "python"
+          },
+          {
+            "name": "frontend",
+            "value": "python flask"
+          }
+        ],
+        "title": "Translator App",
+        "link": "https://github.com/mukul-puspam/translator-app",
+        "imageSrc": "../../assets/images/app-icon.png"
+      },
+      {
+        "description": "This application helps in earning in intraday trading. It will suggest you the 3-5 stocks whick if you should buy or sell to earn more. This application's prediction is 70% accurate.",
+        "technology": [
+          {
+            "name": "backend",
+            "value": "python, selenium"
+          },
+          {
+            "name": "frontend",
+            "value": "python flask"
+          }
+        ],
+        "title": "Stock Predictor",
+        "link": "https://github.com/mukul-puspam/stock-predictor",
+        "imageSrc": "../../assets/images/app-icon.png"
+      }
+    ]
+  }

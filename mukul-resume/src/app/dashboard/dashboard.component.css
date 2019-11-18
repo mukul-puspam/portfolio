@@ -1,11 +1,12 @@
 .container {
     display: flex;
-    flex-flow: wrap;
+    flex-flow: inherit;
     /* justify-content: space-around; */
 }
 .sideNav {
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 .sideNav button {
     margin: 1%;

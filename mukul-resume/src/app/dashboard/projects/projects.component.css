@@ -14,3 +14,15 @@
 mat-card{
     margin: 2%;
 }
+
+.projectIcon {
+    width: auto;
+    height: 45px;
+}
+
+.title {
+    margin-left: 2%;
+}
+.description {
+    font-size: large;
+}

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-@Injectable({
+@ Injectable({
   providedIn: 'root'
 })
 export class CommonService {
@@ -10,6 +10,10 @@ export class CommonService {
 
   getResumeService() {
     return this.http.get('../../assets/json/resume.json');
+  }
+
+  getMyAppService() {
+    return this.http.get('../../assets/json/myApps.json');
   }
 
 }

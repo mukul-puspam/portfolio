@@ -1,3 +1,4 @@
+import { Myapps } from './../model/myapp.model';
 import { Component, OnInit } from '@angular/core';
 import { Resume } from '../model/resume.model';
 import { CommonService } from '../services/common.service';

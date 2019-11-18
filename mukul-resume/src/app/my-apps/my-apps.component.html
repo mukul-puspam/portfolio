@@ -1,1 +1,20 @@
-<p>my-apps works!</p>
+<mat-card *ngFor="let keys of value.myapps;">
+  <mat-card-header>
+    <mat-card-title><img class="projectIcon" src="{{keys.imageSrc}}" />{{keys.title}}</mat-card-title>
+    <mat-card-subtitle>{{keys.description}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list *ngFor="let tech of keys.technology">
+      <mat-list-item>
+        <span class="key"> {{tech.name}} </span>
+        <span class="key">:</span>
+        <span class="value">{{tech.value}}</span>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+  </mat-card-content>
+  <mat-card-actions>
+    <a mat-button href="{{keys.link}}">Link to code</a>
+    <a mat-button href="/">Link to live app</a>
+  </mat-card-actions>
+</mat-card>
